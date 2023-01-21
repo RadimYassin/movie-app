@@ -1,12 +1,13 @@
+import Header from "./Component/Header"
+import { Container } from "./styles/styleC"
 
 
 function App() {
 
   return (
-    <div>
-     heelo
-    
-    </div>
+ <Container>
+ <Header/>
+ </Container>
   )
 }
 
