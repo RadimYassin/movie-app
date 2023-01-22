@@ -61,10 +61,16 @@ export const LinkI=styled(Link)`
    }
 `
 
-export const Button=styled.button`
+export const Button=styled(Link)`
     border-radius:10px;
-    padding:0 10px;
-    border:none;
+    background-color: rgb(16, 114, 189);
+    padding:8px 10px;
+  
+    text-decoration:none;
+    font-weight:500;
+    font-size:16px;
+    color:white;
+    border:1px solid rgb(0, 0, 0);
     &:hover{
     background-color: rgb(16, 122, 35);
     transition: all s ease-in-out;
