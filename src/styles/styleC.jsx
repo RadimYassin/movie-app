@@ -64,6 +64,7 @@ export const LinkI=styled(Link)`
 export const Button=styled.button`
     border-radius:10px;
     padding:0 10px;
+    border:none;
     &:hover{
     background-color: rgb(16, 122, 35);
     transition: all s ease-in-out;
