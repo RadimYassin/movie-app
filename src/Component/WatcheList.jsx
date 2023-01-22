@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Watchlist = () => {
+const WatcheList = () => {
   return (
     <div>
       whatch ist
@@ -8,4 +8,4 @@ const Watchlist = () => {
   )
 }
 
-export default Watchlist
+export default WatcheList
