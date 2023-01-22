@@ -12,9 +12,9 @@ function App() {
   return (
  <Container>
  <Header/>
- 
+
   <Routes>
-   <Route path='/' element={<WatcheList/>}/>
+   <Route index path='/' element={<WatcheList/>}/>
    <Route path='/Watched' element={<Watched/>}/>
    <Route path='/Add' element={<Add/>}/>
 
