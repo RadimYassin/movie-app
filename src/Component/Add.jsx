@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
 import { BoxSearch,InputSearch,BoxAdd } from '../styles/styleC'
@@ -9,9 +10,10 @@ const Add = () => {
 
    setSearch(e.target.value)
 
+    axios.get(`
+    https://api.themoviedb.org/3/search/movie?api_key=8bb482f2f727dd736af358131fd13dab&language=en-US&page=1&include_adult=false&query=${e.target.value}`).then(res=>res).then(data=>console.log(data))
 
-
-  console.log(e.target.value);
+  console.log(import.meta.env.VITE_SOME_KEY);
 
   }
   return (
