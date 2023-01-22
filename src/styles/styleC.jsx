@@ -29,7 +29,7 @@ export const Logo=styled.h3`
   
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:40px;
-    margin-left:10px;
+    margin-left:20px;
     color:white;
     flex:1;
     @media screen and (max-width:900px ) {
@@ -42,7 +42,8 @@ export const Links=styled.div`
 
    flex:1;
    display:flex;
-   justify-content:center;
+   justify-content:end;
+margin-right:20px;
    gap:10px;
 
 `
@@ -58,4 +59,16 @@ export const LinkI=styled(Link)`
     background-color: rgb(28, 132, 187);
     transition: all s ease-in-out;
    }
+`
+
+export const Button=styled.button`
+    border-radius:10px;
+    padding:0 10px;
+    &:hover{
+    background-color: rgb(16, 122, 35);
+    transition: all s ease-in-out;
+    color:white;
+   }
+
+
 `
