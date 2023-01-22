@@ -1,10 +1,15 @@
 import React from 'react'
+import { BoxSearch,InputSearch,BoxAdd } from '../styles/styleC'
 
 const Add = () => {
   return (
-    <div>
-      add
-    </div>
+    <BoxAdd>
+      <BoxSearch>
+      <InputSearch type='text'
+      placeholder='name of film or s'
+      />
+      </BoxSearch>
+    </BoxAdd>
   )
 }
 
