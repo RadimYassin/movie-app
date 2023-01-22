@@ -79,3 +79,32 @@ export const Button=styled(Link)`
 
 
 `
+
+
+
+
+export const BoxAdd=styled.div`
+    width:100%;
+
+    height:max-content;
+
+`
+export const BoxSearch =styled.form`
+
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+
+`
+
+export const InputSearch =styled.input`
+    width:70%;
+    padding:8px;
+    outline:none;
+    
+    
+
+
+`
