@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Whatched = () => {
+const Watched = () => {
   return (
     <div>
       Whatched
@@ -8,4 +8,4 @@ const Whatched = () => {
   )
 }
 
-export default Whatched
+export default Watched

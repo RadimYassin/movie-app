@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Whatchlist = () => {
+const Watchlist = () => {
   return (
     <div>
       whatch ist
@@ -8,4 +8,4 @@ const Whatchlist = () => {
   )
 }
 
-export default Whatchlist
+export default Watchlist
