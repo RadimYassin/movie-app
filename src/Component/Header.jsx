@@ -9,8 +9,9 @@ const Header = () => {
           Movie App
         </Logo>
          <Links>
-            <LinkI> home</LinkI>
-            <LinkI> home</LinkI>
+            <LinkI> movies</LinkI>
+            <LinkI> series</LinkI>
+            <LinkI> add favorite</LinkI>
          </Links>
       </NavC>
   )
