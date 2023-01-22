@@ -103,7 +103,7 @@ export const InputSearch =styled.input`
     width:70%;
     padding:8px;
     outline:none;
-    
+    border-radius:5px;
     
 
 
