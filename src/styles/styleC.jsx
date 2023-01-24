@@ -87,6 +87,7 @@ export const BoxAdd=styled.div`
     width:100%;
 
     height:max-content;
+   
 
 `
 export const BoxSearch =styled.form`
@@ -97,6 +98,7 @@ export const BoxSearch =styled.form`
     justify-content:center;
 
 
+
 `
 
 export const InputSearch =styled.input`
@@ -104,6 +106,32 @@ export const InputSearch =styled.input`
     padding:8px;
     outline:none;
     border-radius:5px;
+    
+
+
+`
+
+
+export const BoxC=styled.div`
+    width:100%;
+    margin-top:20px ;
+    height:auto;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    
+    
+
+
+`
+export const BoxM=styled.ul`
+
+     background-color:#7a7a7a;
+     width:70%;
+     height:auto;
+    
     
 
 
