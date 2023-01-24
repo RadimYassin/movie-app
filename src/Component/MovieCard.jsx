@@ -1,10 +1,13 @@
 import React from 'react'
+import { MovieBOX,Img,Info } from '../styles/styleC'
 
-const MovieCard = () => {
+const MovieCard = ({movie}) => {
   return (
-    <div>
-      HI
-    </div>
+        <MovieBOX>
+                 <Img></Img>
+                  <Info>g</Info>
+
+        </MovieBOX>
   )
 }
 
