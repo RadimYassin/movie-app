@@ -129,11 +129,7 @@ export const BoxM=styled.ul`
 
      width:70%;
      height:auto;
-    background-color:RED;
-    @media screen and (max-width:900px ) {
-        width:100%;
-  
-    }
+
     
 
 
@@ -143,24 +139,93 @@ export const BoxM=styled.ul`
 export const MovieBOX=styled.li`
     
     width:100%;
-    height:300px;
+   
     margin-top:10px;
     box-shadow: 1px 1px 17px -6px #505050;
     display:flex;
+    gap:20px;
+    height:300px;
     @media screen and (max-width:900px ) {
         flex-direction:column;
-  
+        height:max-content;
+      
     }
 `
 
 
 export const Img=styled.div`
-    flex:1;
+    display:flex;
    
-    background-color:#797979;
+    @media screen and (max-width:900px ) {
+       justify-content:center;
+       height:300px;
+       padding-top:10px;
+    }
+   
+    
 `
 
 export const Info=styled.div`
 flex:1;
-    background-color:#e8b7b7;
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+
+   
+`
+export const  InfoC=styled.div`
+padding:10px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+        @media screen and (max-width:900px ) {
+       justify-content:center;
+    
+       padding-top:10px;
+    }
+`
+
+export const Title=styled.span`
+flex: 1;
+display:flex;
+gap:10px;
+align-items:center;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+`
+export const Date=styled.span`
+    color:#727272;
+    @media screen and (max-width:900px ) {
+   display:none;
+    }
+`
+
+
+export const Text=styled.p`
+    color:#393838;
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+    @media screen and (max-width:900px ) {
+        text-align:center;
+    padding:8px;
+    }
+   
+    
+`
+
+
+export const GroupeBtn=styled.div`
+   
+    padding:8px;
+
+    display:flex;
+    justify-content:space-between;
+    
+  
+`
+
+export const ButtonAdd=styled.button`
+    width:150px;
+    padding: 8px;
 `
