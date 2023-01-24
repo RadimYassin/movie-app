@@ -6,7 +6,7 @@ const Header = () => {
    
       <NavC>
         <Logo>
-          Movie App
+          MovieBD
         </Logo>
          <Links>
             <LinkI to='/'> Wahtchlist</LinkI>
