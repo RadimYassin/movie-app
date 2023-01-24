@@ -44,7 +44,7 @@ const Add = () => {
            <BoxM>
              {
              movies.length>0 && movies.map((item)=>{
-              return <MovieCard key={item.id}/>
+              return <MovieCard movie={item} key={item.id}/>
              })
              }
            </BoxM>
