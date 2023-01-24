@@ -1,7 +1,8 @@
 import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
-import { BoxSearch,InputSearch,BoxAdd } from '../styles/styleC'
+import MovieCard from './MovieCard'
+import { BoxSearch,InputSearch,BoxAdd,BoxC,BoxM } from '../styles/styleC'
 
 const Add = () => {
  const [serch,setSearch]=useState('')
@@ -28,6 +29,7 @@ const Add = () => {
   }
   return (
     <BoxAdd>
+
       <BoxSearch>
       <InputSearch 
       value={serch}
@@ -36,6 +38,19 @@ const Add = () => {
       placeholder='search of a film'
       />
       </BoxSearch>
+
+
+      < BoxC>
+           <BoxM>
+             {
+             movies.length>0 && movies.map((item)=>{
+              return <MovieCard/>
+             })
+             }
+           </BoxM>
+
+      </  BoxC>
+
     </BoxAdd>
   )
 }
