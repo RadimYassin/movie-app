@@ -5,6 +5,7 @@ import Watched from './Component/Watched';
 import { Container } from "./styles/styleC"
 import { Route, Routes } from 'react-router-dom';
 import { GProvider } from './context/Gstate';
+import MovieDetail from './Component/MovieDetail';
 
 
 
@@ -20,7 +21,7 @@ function App() {
           <Route index path='/' element={<WatcheList />} />
           <Route path='/Watched' element={<Watched />} />
           <Route path='/Add' element={<Add />} />
-
+          <Route path='/detail' element={<MovieDetail />} />
         </Routes>
       </Container>
     </GProvider>
