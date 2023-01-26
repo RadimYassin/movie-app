@@ -10,8 +10,8 @@ const Header = () => {
         </Logo>
          <Links>
             <LinkI to='/'> Wahtchlist</LinkI>
-            <LinkI to='/watched'> watched</LinkI>
-            <Button to='/add'> add</Button>
+            <LinkI to='/watched'> Top Rated</LinkI>
+            <Button to='/add'> search </Button>
          </Links>
       </NavC>
   )
