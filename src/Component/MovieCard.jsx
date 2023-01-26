@@ -3,6 +3,7 @@ import { MovieBOX,Img,Info,Title,Date,InfoC,Text,GroupeBtn, ButtonAdd } from '..
 import {FcFilmReel} from 'react-icons/fc'
 import { useContext } from 'react'
 import { Gcontext } from '../context/Gstate'
+import { Link } from 'react-router-dom'
 const MovieCard = ({movie}) => {
 
   const {addwatchlist,watchlist} =useContext(Gcontext)
@@ -31,9 +32,7 @@ const Disbled=movieS ? true :false;
                              <ButtonAdd disabled={Disbled} onClick={()=>addwatchlist(movie)}>
                                 add 
                              </ButtonAdd>
-                             <ButtonAdd>
-                               delete
-                             </ButtonAdd>
+                            <Link to='/detail'>more</Link>
                              
                          </GroupeBtn>
            
