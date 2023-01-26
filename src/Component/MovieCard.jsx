@@ -1,7 +1,14 @@
 import React from 'react'
 import { MovieBOX,Img,Info,Title,Date,InfoC,Text,GroupeBtn, ButtonAdd } from '../styles/styleC'
 import {FcFilmReel} from 'react-icons/fc'
+import { useContext } from 'react'
+import { Gcontext } from '../context/Gstate'
 const MovieCard = ({movie}) => {
+
+  const {addwatchlist,watchlist} =useContext(Gcontext)
+let movieS=watchlist.find(m=>m.id===movie.id)
+const Disbled=movieS ? true :false;
+  console.log(movieS);
   return (
         <MovieBOX>
                  <Img >
@@ -21,7 +28,7 @@ const MovieCard = ({movie}) => {
                         </Text>
                
                          <GroupeBtn>
-                             <ButtonAdd>
+                             <ButtonAdd disabled={Disbled} onClick={()=>addwatchlist(movie)}>
                                 add 
                              </ButtonAdd>
                              <ButtonAdd>
