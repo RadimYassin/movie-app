@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Watched = () => {
+function TopRated() {
   return (
     <div>
-      Whatched
+      HELLO
     </div>
   )
 }
 
-export default Watched
+export default TopRated

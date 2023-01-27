@@ -10,7 +10,7 @@ const Header = () => {
         </Logo>
          <Links>
             <LinkI to='/'> Wahtchlist</LinkI>
-            <LinkI to='/watched'> Top Rated</LinkI>
+            <LinkI to='/toprated'> Top Rated</LinkI>
             <Button to='/add'> search </Button>
          </Links>
       </NavC>
