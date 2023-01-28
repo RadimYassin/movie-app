@@ -1,7 +1,6 @@
 import Header from './Component/Header';
 import Add from './Component/Add';
 import WatcheList from './Component/WatcheList';
-import Watched from './Component/Watched';
 import { Container } from "./styles/styleC"
 import { Route, Routes } from 'react-router-dom';
 import { GProvider } from './context/Gstate';
@@ -20,9 +19,9 @@ function App() {
         <Routes>
 
           <Route index path='/' element={<WatcheList />} />
-          <Route path='/TopRated' element={<TopRated/>} />
+          <Route path='/toprated' element={<TopRated/>} />
           <Route path='/Add' element={<Add />} />
-          <Route path='/detail' element={<MovieDetail />} />
+          <Route path='/detail/:id' element={<MovieDetail />} />
         </Routes>
       </Container>
     </GProvider>

@@ -51,11 +51,16 @@ export const LinkI=styled(Link)`
    
     padding:8px;
     border-radius:5px;
-
+    background-color:${({btn})=>btn ?'#273679':null };
    &:hover{
     background-color: rgb(28, 132, 187);
     transition: all s ease-in-out;
    }
+   @media screen and (max-width:900px ) {
+font-size:16px;
+padding:2px;
+
+    }
 `
 
 export const Button=styled(Link)`
@@ -228,4 +233,40 @@ export const GroupeBtn=styled.div`
 export const ButtonAdd=styled.button`
     width:150px;
     padding: 8px;
+    border-radius:4px;
+    color:rgb(255, 255, 255);
+    background-color:${({btn})=>btn ? '#f7934b' :'#0467fb'}
+    
 `
+
+
+export const WatcheListContainer=styled.section`
+    
+
+    width:70%;
+    margin:0 auto;
+    padding:8px;
+
+`
+
+
+export const WatchMovie=styled.section`
+    
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+
+`
+
+export const BoxW=styled.section`
+    
+
+
+    width:300px;
+    height:300px;
+    margin:10px;
+`
+
+

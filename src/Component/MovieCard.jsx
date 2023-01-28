@@ -1,5 +1,5 @@
 import React from 'react'
-import { MovieBOX,Img,Info,Title,Date,InfoC,Text,GroupeBtn, ButtonAdd } from '../styles/styleC'
+import { MovieBOX,Img,Info,Title,Date,InfoC,Text,GroupeBtn, ButtonAdd, LinkI } from '../styles/styleC'
 import {FcFilmReel} from 'react-icons/fc'
 import { useContext } from 'react'
 import { Gcontext } from '../context/Gstate'
@@ -29,10 +29,10 @@ const Disbled=movieS ? true :false;
                         </Text>
                
                          <GroupeBtn>
-                             <ButtonAdd disabled={Disbled} onClick={()=>addwatchlist(movie)}>
-                                add 
+                             <ButtonAdd btn disabled={Disbled} onClick={()=>addwatchlist(movie)}>
+                                add to wahtchelist
                              </ButtonAdd>
-                            <Link to='/detail'>more</Link>
+                            <LinkI btn to={`/detail/${movie.id}`}>more</LinkI>
                              
                          </GroupeBtn>
            
