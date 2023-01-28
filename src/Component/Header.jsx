@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavC,LinkI,Links,Logo,Button } from '../styles/styleC'
+import { NavC,LinkI,Links,Logo } from '../styles/styleC'
 
 const Header = () => {
   return (
@@ -9,9 +9,10 @@ const Header = () => {
           MovieBD
         </Logo>
          <Links>
-            <LinkI to='/'> Wahtchlist</LinkI>
             <LinkI to='/toprated'> Top Rated</LinkI>
-            <Button to='/add'> search </Button>
+            <LinkI to='/'> Wahtchlist</LinkI>
+            <LinkI to='/add'> search </LinkI>
+            
          </Links>
       </NavC>
   )
