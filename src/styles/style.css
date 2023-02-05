@@ -7,7 +7,7 @@
 .movies-container{
     margin: 0 auto;
     
-    width: 1030px;
+    width: 80%;
 }
 
 .movies-container h1{
@@ -27,6 +27,7 @@
     display: flex;
     gap: 15px;
    align-items: center;
+   border-bottom: 1px solid black;
 }
  img{
     border-radius: 10px;
@@ -88,4 +89,54 @@
 
 .groupe-btn .add{
     padding: 8px;
+    background-color: rgb(19, 100, 151);
+    color: white;
+}
+
+.groupe-btn .add:disabled{
+    padding: 8px;
+    background-color: rgb(133, 157, 171);
+    color: white;
+}
+
+@media screen and (max-width:900px ) {
+    .movies-container{
+        
+        
+        width: 100%;
+    }
+    .movie{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .info-overview{
+        display: none;
+    }
+    .groupe-btn{
+        padding-top: 5px;
+    }
+    .groupe-btn button{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+    .info-general{
+   width: 100%;
+
+        margin-bottom: 20px;
+        
+      
+    }
+    .info {
+
+        height: auto;
+        padding: 10px;
+    
+    }
+    .movies-result{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    
 }
