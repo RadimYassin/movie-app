@@ -42,7 +42,7 @@
 
 .info {
 
-    height: 290px;
+    height:auto;
     padding: 40px;
 
 }
@@ -128,6 +128,7 @@
         
       
     }
+  
     .info {
 
         height: auto;
