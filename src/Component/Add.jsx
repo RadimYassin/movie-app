@@ -13,7 +13,7 @@ const Add = () => {
    setSearch(e.target.value)
 
     axios.get(`
-    https://api.themoviedb.org/3/search/movie?api_key=8bb482f2f727dd736af358131fd13dab&language=en-US&page=3&include_adult=false&query=${e.target.value}`)
+    https://api.themoviedb.org/3/search/movie?api_key=8bb482f2f727dd736af358131fd13dab&language=en-US&page=100&include_adult=false&query=${e.target.value}`)
     .then(res=>res).then(data=>
       {
         if (!data.errors) {
