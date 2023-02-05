@@ -20,6 +20,12 @@ export const GProvider= props=>{
             payload:movie
         })
     }
+    const deleteFromWatchlist=id=>{
+        dispatch ({ 
+            type:"DELW",
+            payload:id
+        })
+    }
 
-    return <Gcontext.Provider value={{watchlist:state.watchlist,watched:state.watched,addwatchlist}}>{props.children}</Gcontext.Provider>
+    return <Gcontext.Provider value={{watchlist:state.watchlist,watched:state.watched,addwatchlist,deleteFromWatchlist}}>{props.children}</Gcontext.Provider>
 }
