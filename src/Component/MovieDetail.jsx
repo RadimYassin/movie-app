@@ -10,11 +10,11 @@ function MovieDetail() {
   const {id}=useParams();
 
   let  urld =`https://api.themoviedb.org/3/movie/${id}?api_key=8bb482f2f727dd736af358131fd13dab&language=en-US`
-   let urlS=`https://api.themoviedb.org/3/movie/${id}/similar?api_key=8bb482f2f727dd736af358131fd13dab&language=en-US`
+   
 
   useEffect(()=>{
       axios.get(urld).then(res=>setDetail(res.data))
-      axios.get(urlS).then(res=>setSmilair(res.data))
+    
   },[])
 
   console.log(smilair);

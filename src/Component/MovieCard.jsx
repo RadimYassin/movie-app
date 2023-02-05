@@ -3,7 +3,6 @@ import { MovieBOX,Img,Info,Title,Date,InfoC,Text,GroupeBtn, ButtonAdd, LinkI } f
 import {FcFilmReel} from 'react-icons/fc'
 import { useContext } from 'react'
 import { Gcontext } from '../context/Gstate'
-import { Link } from 'react-router-dom'
 const MovieCard = ({movie}) => {
 
   const {addwatchlist,watchlist} =useContext(Gcontext)

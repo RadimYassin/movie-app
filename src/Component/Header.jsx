@@ -13,6 +13,7 @@ const Header = () => {
             <LinkI to='/'> Wahtchlist</LinkI>
             <LinkI to='/add'> search </LinkI>
             
+            
          </Links>
       </NavC>
   )

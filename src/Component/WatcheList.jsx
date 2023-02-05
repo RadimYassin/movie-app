@@ -15,7 +15,7 @@ const WatcheList = () => {
         return  <BoxW key={movie.id} >
                 
         <img style={{width:300,height:300}}  src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`} alt={movie.title} />
-       
+          
         </BoxW>
        }): 'NO MOVIES YET !'}
          
