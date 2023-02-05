@@ -16,5 +16,76 @@
 }
 
 .movies-result{
-    background-color: black;
+    background-color: rgb(235, 235, 235);
+}
+
+.movie{
+    
+    padding: 13px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+   align-items: center;
+}
+ img{
+    border-radius: 10px;
+ }
+.movie h3{
+    color: rgb(176, 139, 139);
+    font-size: 40px;
+    padding: 8px;
+     
+}
+
+
+.info {
+
+    height: 290px;
+    padding: 40px;
+
+}
+
+
+.info-general{
+   
+    margin-bottom: 40px;
+    
+    top: 30px;
+}
+
+.info-general{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.vote{
+    background-color: rgb(251, 201, 0);
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.info-overview{
+    padding: auto;
+}
+
+
+.info-overview p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+.groupe-btn{
+    padding-top: 20px;
+}
+
+
+.groupe-btn .add{
+    padding: 8px;
 }
