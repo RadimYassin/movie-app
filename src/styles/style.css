@@ -1,0 +1,20 @@
+.movies{
+
+    padding: 90px;
+}
+
+
+.movies-container{
+    margin: 0 auto;
+    
+    width: 1030px;
+}
+
+.movies-container h1{
+ color: rgb(162, 162, 160);
+ font-size: 40px;
+}
+
+.movies-result{
+    background-color: black;
+}
