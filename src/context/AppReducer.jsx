@@ -7,6 +7,12 @@ export default (state,action)=>{
                     action.payload,...state.watchlist
                 ]
             }
+
+            case "DELW":
+                return {
+                    ...state,
+                    watchlist:state.watchlist.filter(i=>i.id!==action.payload)
+                }
     
         default:
            return state
