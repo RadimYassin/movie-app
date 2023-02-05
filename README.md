@@ -13,5 +13,5 @@ npm install react-icons --save
 
 # Create an Axios Instance
 const client = axios.create({
-  baseURL: "https://jsonplaceholder.typicode.com/posts" 
+  baseURL: "" 
 });
