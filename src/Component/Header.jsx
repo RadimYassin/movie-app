@@ -9,7 +9,7 @@ const Header = () => {
           MovieBD
         </Logo>
          <Links>
-            <LinkI to='/toprated'> Top Rated</LinkI>
+            <LinkI to='/toprated'>TopRated</LinkI>
             <LinkI to='/'> Wahtchlist</LinkI>
             <LinkI to='/add'> search </LinkI>
             

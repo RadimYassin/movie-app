@@ -31,7 +31,6 @@ const Disbled=movieS ? true :false;
                              <ButtonAdd btn disabled={Disbled} onClick={()=>addwatchlist(movie)}>
                                 add to wahtchelist
                              </ButtonAdd>
-                            <LinkI btn to={`/detail/${movie.id}`}>more</LinkI>
                              
                          </GroupeBtn>
            
