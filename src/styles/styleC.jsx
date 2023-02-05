@@ -235,8 +235,16 @@ export const ButtonAdd=styled.button`
     padding: 8px;
     border-radius:4px;
     color:rgb(255, 255, 255);
-    background-color:${({btn})=>btn ? '#f7934b' :'#0467fb'}
-    
+    background-color:${({btn})=>btn ? '#f7934b' :'#0467fb'};
+
+
+   &:disabled{
+    background-color:#c8926c;
+   }
+    @media screen and (max-width:900px ) {
+      width:100%;
+    }
+
 `
 
 
@@ -265,8 +273,21 @@ export const BoxW=styled.section`
 
 
     width:300px;
-    height:300px;
+
     margin:10px;
+    
 `
 
 
+export const ButtonDelete=styled.button`
+    
+
+    background-color:#0c58a9;
+    width:100%;
+    padding:8PX;
+    color:white;
+    border-radius:5px;
+    &:hover{
+        background-color:#a90c0c;
+    }
+`
