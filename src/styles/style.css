@@ -88,9 +88,10 @@
 
 
 .groupe-btn .add{
-    padding: 8px;
+    padding: 9px;
     background-color: rgb(19, 100, 151);
     color: white;
+    border-radius: 5px;
 }
 
 .groupe-btn .add:disabled{
